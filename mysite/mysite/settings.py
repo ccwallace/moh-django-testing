@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ['django'],
+        'NAME': os.environ['awseb-e-rvn6nrsgim-stack-awsebrdsdatabase-pinnlj5eifkq'],
         'USER': os.environ['django'],
         'PASSWORD': os.environ['django123'],
         'HOST': os.environ['awseb-e-rvn6nrsgim-stack-awsebrdsdatabase-pinnlj5eifkq'],
