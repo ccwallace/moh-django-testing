@@ -25,7 +25,7 @@ SECRET_KEY = 'v(_h##^d#$qi6vownm(ib3vip*r8vq_=#bjk*7a3(bjsqy26!l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mohadvocate-env.eba-cjyryswv.us-east-1.elasticbeanstalk.com/', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'US/Central'
 
 USE_I18N = True
 
